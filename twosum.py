@@ -8,4 +8,5 @@ class Solution:
             else:
                 return [newdict[temp], i]
 
+
 print('happy')
