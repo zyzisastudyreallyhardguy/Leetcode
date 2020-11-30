@@ -8,6 +8,7 @@ class Solution1:
                     return [i, j]
 
 
+
 #solution 2 dictionary based solution
 class Solution2:
     def twoSum(self, nums, target):
