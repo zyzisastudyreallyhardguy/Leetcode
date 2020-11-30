@@ -7,3 +7,5 @@ class Solution:
                 newdict[nums[i]] = i
             else:
                 return [newdict[temp], i]
+
+print('happy')
