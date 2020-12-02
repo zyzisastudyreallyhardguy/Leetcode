@@ -10,6 +10,17 @@ class Solution1:
 
 
 #solution 2 dictionary based solution
+#version 1
+class Solution2:
+    def twoSum(self, nums, target):
+        newdict = {}
+        for i,element in enumerate(nums):
+            newdict[element] = i
+        for i,element in enumerate(nums):
+            if (target - element) in newdict:
+                return [i,newdict[target - element]]
+
+#version 2
 class Solution2:
     def twoSum(self, nums, target):
         newdict = {}
